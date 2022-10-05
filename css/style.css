@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	padding-left: 1.1rem;
+}
+
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	overflow: hidden;
+}
+
+header.testata {
+	background-color: red;
+	height: 45px;
+}
+
+
+main.main-content {
+	display: flex;
+	flex-direction: column-reverse;
+	flex-grow: 1;
+
+}
+
+main.main-content .content {
+	background-color: gray;
+	flex-grow: 1;
+	gap: 4px;
+}
+
+
+main.main-content aside.sidebar {
+	background-color: orange;
+	height: 20%;
+}
+
+
+main.main-content .box {
+	background-color: green;
+	width: calc((100% / 3) - 8px / 3);
+	height: 30px;
+}
+
+footer.piedipagina {
+	background-color: blue;
+	height: 55px;
+}
+
+@media screen and (min-width : 480px) {
+
+	main.main-content {
+		flex-grow: 1;
+		display: flex;
+		flex-direction: row;
+	}
+
+	main.main-content aside.sidebar {
+		background-color: orange;
+		flex-basis: 35%;
+		height: 100%;
+	}
+
+	main.main-content .content {
+		background-color: gray;
+		flex-basis: 65%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 4px;
+	}
+}
+
+@media screen and (min-width : 768px) {
+	main.main-content {
+		flex-direction: row-reverse;
+	}
+}
+
+@media screen and (min-width : 992px) {
+	main.main-content aside.sidebar {
+		max-width: 350px;
+		background-color: burlywood;
+	}
+}
