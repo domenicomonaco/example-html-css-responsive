@@ -1,14 +1,17 @@
+/**
+	Domenico Monaco - https://blog.domenicomonaco.it
+	MIT LICENSE - 2022
+**/
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-ul,
-ol {
+ul,ol {
 	padding-left: 1.1rem;
 }
-
 
 body {
 	display: flex;
@@ -21,7 +24,6 @@ header.testata {
 	background-color: red;
 	height: 45px;
 }
-
 
 main.main-content {
 	display: flex;
@@ -36,17 +38,9 @@ main.main-content .content {
 	gap: 4px;
 }
 
-
 main.main-content aside.sidebar {
 	background-color: orange;
 	height: 20%;
-}
-
-
-main.main-content .box {
-	background-color: green;
-	width: calc((100% / 3) - 8px / 3);
-	height: 30px;
 }
 
 footer.piedipagina {

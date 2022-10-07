@@ -1,4 +1,7 @@
-/*==========  Non-Mobile First Method  ==========*/
+
+/**
+Source https://gist.github.com/fahimxyz/70b5541a59fa063ddbf212b6e81f4695
+**/
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
