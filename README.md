@@ -16,6 +16,6 @@ Released under [MIT License LICENSE.md](LICENSE)
 
 [<img style="margin:5px" src="http://cdn.tecnologieperpersone.it/img/tecnologie-per-persone-logo.png" height="32" />](https://tecnologieperpersone.it)
 
-#### Developed for collaboration "Class 65 - Boolean SRL"
+#### Developed during collaboration "Boolean SRL"
 
 [<img style="margin:5px" src="docs/boolean-logo.png" height="32" />](https://boolean.careers/)
